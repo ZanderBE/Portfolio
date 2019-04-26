@@ -1,0 +1,42 @@
+.card-img-top {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+    @include mq(mobile) {
+      height: 200px;
+    }
+    @include mq(tablet) {
+      height: 300px;
+    }
+    @include mq(desktop) {
+      height: 350px;
+    }
+}
+
+.card-deck .card .myImg {
+  cursor: zoom-in;
+
+}
+
+.card-deck .card .myImg:hover {
+  -moz-transform: scale(1.2, 1.2);
+  -ms-transform: scale(1.2, 1.2);
+  -o-transform: scale(1.2, 1.2);
+  -webkit-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+}
+.contact img:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.card-deck .card .card-body img:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.myImg {
+
+}
+
+.wrapper-img {
+  overflow: hidden;
+}

@@ -1,0 +1,34 @@
+// Navigation
+.sedona-red {
+  background: $sedona-red;
+}
+
+.transparent {
+  background: transparent;
+}
+
+// Navbar styling
+.navbar {
+  
+}
+// Style for ZBE Branding
+.navbar-light .navbar-brand {
+  color: $sedona-red;
+  font-family: $font-stack-secondary;
+}
+
+.name-brand {
+  color: $sedona-red;
+}
+
+.navbar-light .navbar-nav .nav-link  {
+  color: $sedona-red;
+  font-weight: $font-weight-bold;
+  line-height: 1;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: $tundora;
+  border-bottom: 5px solid $tundora;
+  line-height: .75;
+}

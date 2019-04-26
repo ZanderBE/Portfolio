@@ -1,0 +1,35 @@
+// flexbox mixin
+@mixin flexy(
+  $disp: flex,
+  $dir: null,
+  $wrap: null,
+  $just: null) {
+    display: $disp;
+    flex-direction: $dir;
+    flex-wrap: $wrap;
+    justify-content: $just;
+    @content;
+}
+
+
+// Media Queries
+@mixin mq($break) {
+  @if $break == "mobile" {
+    @media (min-width: $brk-mobile) {
+      @content;
+    }
+  }
+  @else if $break == "tablet" {
+    @media (min-width: $brk-tablet) {
+      @content;
+    }
+  }
+  @else if $break == "desktop" {
+    @media (min-width: $brk-desktop) {
+      @content;
+    }
+  }
+  @else {
+    @error "Uh Oh! No Value for `#{$break}`."
+  }
+}

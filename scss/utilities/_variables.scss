@@ -1,0 +1,51 @@
+// Descriptive Color Variables
+$black: #000000;
+$white: #ffffff;
+$grey: #d3d3d3;
+$slate-grey: #778899;
+$black-grey: #42454D;
+$caribbean-green: #15efb4;
+$aqua: #48e9f9;
+$granny-smith-apple: #46d283;
+$cherry: #f06668;
+$tangerine: #ff7518;
+$violet-purple: #8957a2;
+$seafoam-green: #6af0cf;
+$denim: #1c7897;
+$sky-blue: #62e2f9;
+$lilac-purple: #ce88f2;
+$spruce-green: #76c66c;
+$shimmering-blush: #c66c70;
+$burnt-orange: #e68b5c;
+$sedona-red: #A71930;
+$silver-chalice: #ADADAD;
+$tundora: #4A4A4A;
+// Functional Color Variables
+$color-primary: $caribbean-green;
+$color-secondary: $aqua;
+$color-bg-primary: $white;
+$color-text-primary: $black-grey;
+$color-text-secondary: $slate-grey;
+$color-text-selected: $white;
+
+// Font Stacks
+$font-url-google: 'https://fonts.googleapis.com/css?family=Play:400,700|Sigmar+One';
+$font-stack-primary: 'Play', sans-serif;
+$font-stack-secondary: 'Sigmar One', cursive;
+
+//Font Weights
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+// Media Query Breakpoints
+$brk-mobile: 320px;
+$brk-tablet: 768px;
+$brk-desktop: 1400px;
+
+// Grid
+$g-col-width: 65px;
+$g-gutter-width: 20px;
+$g-col-count: 12;
+$g-cont-max-w: 1050px;
